@@ -5,6 +5,7 @@ set -e
 
 # build
 # yarn build
+# parcel build src/index.html --public-url ./
 
 # navigate into the build output directory
 cd dist
@@ -24,3 +25,5 @@ git commit -m 'update'
 # git push -f git@gitee.com:meatball-c/blanche-account-website.git master:gh-pages
 
 cd -
+
+echo https://iscccc.github.io/cv-website/

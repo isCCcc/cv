@@ -2,5 +2,9 @@
   "homepage": "./",
   "dependencies": {
     "sass": "^1.54.4"
+  },
+  "devDependencies": {
+    "cssnano": "^5.1.13",
+    "postcss": "^8.2.15"
   }
 }
